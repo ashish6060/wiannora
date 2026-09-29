@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 230">
+  <defs>
+    <linearGradient id="rose" x1="0" x2="1">
+      <stop offset="0" stop-color="#7e3e43"/><stop offset="1" stop-color="#b66b70"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="230" rx="18" fill="#f8ebe7"/>
+  <g fill="none" stroke="url(#rose)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M285 50c-28 4-48 17-57 37 29-18 52-19 69-5 13 11 21 29 32 49 13 25 25 42 45 48-15-19-24-36-34-59-15-34-30-66-55-70z"/>
+    <path d="M360 63c25-5 45 2 62 20 17 19 23 41 46 63-27-8-44-23-56-44-12-22-25-35-52-39z"/>
+  </g>
+  <path d="M448 40c10 9 16 20 17 34-13-5-22-13-28-25 4-4 7-6 11-9zm-35 20c-7 11-8 23-5 35 12-5 21-13 26-24-6-5-13-8-21-11zm70 1c-1 13-7 24-17 33-5-11-4-22 1-33 6-2 11-2 16 0z" fill="url(#rose)"/>
+  <text x="350" y="173" text-anchor="middle" font-family="Georgia, serif" font-size="76" fill="url(#rose)" letter-spacing="2">Wiannora</text>
+  <text x="350" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#8f5558" letter-spacing="7">BEAUTY IN SELF-LOVE</text>
+</svg>

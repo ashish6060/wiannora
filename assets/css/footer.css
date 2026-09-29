@@ -1,0 +1,272 @@
+
+/* =========================================================
+   WIANNORA
+   FOOTER CSS
+========================================================= */
+
+
+/* =========================================================
+   SITE FOOTER
+========================================================= */
+
+.site-footer {
+    background: #251a1b;
+    color: #f6e7e4;
+    padding: 65px 0 20px;
+}
+
+
+/* =========================================================
+   FOOTER GRID
+========================================================= */
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr .7fr .7fr 1.2fr;
+    gap: 55px;
+}
+
+
+/* =========================================================
+   FOOTER LOGO
+========================================================= */
+
+.footer-logo {
+    width: 165px;
+    margin-bottom: 18px;
+    display: block;
+    mix-blend-mode: lighten;  
+}
+
+
+/* =========================================================
+   FOOTER DESCRIPTION
+========================================================= */
+
+.footer-copy {
+    color: #cdb9b7;
+    max-width: 330px;
+    font-size: 13px;
+    margin: 0 0 18px;
+}
+
+
+/* =========================================================
+   FOOTER HEADINGS
+========================================================= */
+
+.footer-grid h4 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 7px 0 15px;
+}
+
+
+/* =========================================================
+   FOOTER LINKS
+========================================================= */
+
+.footer-grid > div:not(:first-child) a {
+    display: block;
+    color: #cdb9b7;
+    font-size: 13px;
+    margin: 8px 0;
+    transition: .2s ease;
+}
+
+.footer-grid > div:not(:first-child) a:hover {
+    color: #fff;
+}
+
+
+/* =========================================================
+   FOOTER TEXT
+========================================================= */
+
+.footer-grid p {
+    font-size: 13px;
+    color: #cdb9b7;
+}
+
+
+/* =========================================================
+   SOCIAL LINKS
+========================================================= */
+
+.socials {
+    display: flex;
+    gap: 8px;
+}
+
+.socials a {
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid #604b4d;
+
+    display: grid;
+    place-items: center;
+
+    font-size: 10px;
+
+    color: #cdb9b7;
+
+    transition: .2s ease;
+}
+
+.socials a:hover {
+    background: #f1d1cc;
+    border-color: #f1d1cc;
+    color: #3d2527;
+}
+
+
+/* =========================================================
+   NEWSLETTER
+========================================================= */
+
+.newsletter {
+    display: flex;
+
+    border: 1px solid #604b4d;
+
+    margin-top: 15px;
+}
+
+.newsletter input {
+    min-width: 0;
+    flex: 1;
+
+    background: transparent;
+
+    border: 0;
+
+    padding: 11px;
+
+    color: #fff;
+
+    outline: 0;
+
+    font-size: 12px;
+}
+
+.newsletter input::placeholder {
+    color: #a99290;
+}
+
+.newsletter input:focus {
+    background: rgba(255, 255, 255, .03);
+}
+
+.newsletter button {
+    background: #f1d1cc;
+
+    color: #3d2527;
+
+    border: 0;
+
+    padding: 0 15px;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    transition: .2s ease;
+}
+
+.newsletter button:hover {
+    background: #fff;
+}
+
+
+/* =========================================================
+   FOOTER BOTTOM
+========================================================= */
+
+.footer-bottom {
+    border-top: 1px solid #49383a;
+
+    margin-top: 50px;
+
+    padding-top: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: #9e8988;
+
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .site-footer {
+        padding: 50px 0 20px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .footer-logo {
+        width: 150px;
+    }
+
+    .footer-copy {
+        max-width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+        line-height: 1.5;
+    }
+
+}
+
+
+/* =========================================================
+   EXTRA SMALL MOBILE
+========================================================= */
+
+@media (max-width: 450px) {
+
+    .newsletter {
+        width: 100%;
+    }
+
+    .newsletter input {
+        width: 100%;
+    }
+
+    .newsletter button {
+        padding: 0 13px;
+    }
+
+}
